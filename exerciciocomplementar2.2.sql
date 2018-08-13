@@ -1,0 +1,1 @@
+SELECT * FROM Livro WHERE preco > (SELECT min(preco) FROM Livro);

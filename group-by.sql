@@ -1,0 +1,1 @@
+SELECT COUNT(*) AS total_aprovados FROM Aluno Where aprovado = 1 AND nome nome like 'A%' XOR '%a';
